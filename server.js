@@ -10,6 +10,6 @@ server.get('/', (req, res) => {
     });
 });
 
-const PORT = 8080;
+const PORT = 80;
 const HOST = 'localhost';
 server.listen(PORT, () => console.log(`starting server at http://${HOST}:${PORT}`))
